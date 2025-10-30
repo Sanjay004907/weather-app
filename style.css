@@ -1,52 +1,31 @@
-/* body styling */
+/* whole body styling */
 body {
-  background-color:chartreuse; /* light sky blue */
+  background-color:lightgreen;
   font-family: Arial, sans-serif;
   transition: background-color 0.3s ease;
 }
-
-/* change bg color based on weatherr */
-body.sunny {
-  background-color:yellow; 
-}
-
-body.cloudy {
-  background-color:gray; 
-}
-
-body.rainy {
-  background-color: lightblue; 
-}
-
-/* Forecast details */
+/* colour change based on temperature */
+body.sunny { background-color:lightyellow; }
+body.cloudy { background-color:lightblue; }
+body.rainy { background-color:darkblue; }
+/* forecast card styling */
 .forecast-card {
-  background-color: white;
-  border: 1px solid lightgrey; 
+  background-color:white;
+  border: 1px solid lightblue;
   border-radius: 0.75rem;
   padding: 1rem;
   text-align: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
-
-/*info of weather box */
+/* weather box styling */
 #weatherBox {
-  background-color: #ffffff;
+  background-color: lightseagreen;
   border-radius: 0.75rem;
   padding: 1.5rem;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
+/* recent cities stylinng */
+#recentCities { background-color:aquamarine; }
 
-/* styling dropdown box */
-#recentCities {
-  background-color: #ffffff;
-}
-
-/* button styling for neatness and simplicity */
-input, select, button {
-  outline: none;
-}
-
-button {
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-}
+input, select, button { outline: none; }
+button { cursor: pointer; transition: background-color 0.2s ease; }
